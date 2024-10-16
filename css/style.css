@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color : #353535a8;
+    --second-color : #353535ea;
+}
+
+.place-container , .data-container{
+    font-weight: 200;
+    color: #050505;
+}
+.weather-iteam{
+    display: flex;
+    justify-content: space-between;
+}
+.other{
+    background-color: var(--main-color) ;
+    border: 1px solid #fff;
+   
+}
+
+    
+
+body {
+    background-image: url(../image/weather\ bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto; 
+    font-family: 'poppins', sans-serif;
+    overflow-y: auto; 
+}
+
+.future-forecost {
+    background-color: var(--main-color);
+    padding: 20px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto; 
+    color: #fff;
+    margin-bottom: 20px; 
+}
+
+
+.weather-forecast .weather-forecost-item , .today-weather{
+   border: 1px solid #fff;
+   border-radius: 20px;
+   padding: 10px;
+    
+}
+.future-forecost .today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.future-forecost .today .day{
+    background-color: var(--second-color);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.future-forecost .today .temp{
+    font-size: 40px;
+}
+.weather-forecost-item .day{
+background-color: var(--second-color) ;
+padding:5px;
+border-radius: 15px;
+text-align: center;
+text-align: center;
+margin: 10px 0px;
+}
+.weather-forecost-item .temp{
+    font-weight: 100;
+}
+
+
+
+
+
