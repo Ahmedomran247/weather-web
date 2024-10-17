@@ -8,7 +8,7 @@ let weatherforecastEL = document.getElementById("weather-forecast");
 let currenttempEL = document.getElementById("current-temp");
 
 let api = {
-    base: "http://api.weatherapi.com/v1",
+    base: "https://api.weatherapi.com/v1",
     key: "59290286b7ed41c5b47114821241010",
 };
 
